@@ -53,13 +53,13 @@ while(sizeof($cluster)>$n){
 					//Filter Farest Distance between Cluster Source and Cluster Target
 					if($source<$target){
 					    if($distance[$source][$target]>$farest){
-							$farest = $distList[$source][$target];
+							$farest = $distance[$source][$target];
 							$farestIndexSource = $src;
 							$farestIndexTarget = $trg;
 						}
 					}else{
 						if($distance[$target][$source]>$farest){
-							$farest = $distList[$target][$source];
+							$farest = $distance[$target][$source];
 							$farestIndexSource = $trg;
 							$farestIndexTarget = $src;
 						}
