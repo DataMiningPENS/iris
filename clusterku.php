@@ -38,7 +38,7 @@ for($i=0;$i<sizeof($cluster);$i++){
 	}
 }
 //3. Initialize Target Cluster
-$n = 3;
+$n = $_GET["cluster"];
 while(sizeof($cluster)>$n){
 	//4. Find Farest but Nearest each Cluster
 	//For every Cluster
