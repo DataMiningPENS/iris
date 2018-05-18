@@ -10,3 +10,8 @@
 * Centroid	Proximity	Index
 * Error	ratio
 
+## How to Use
+
+```
+http://localhost/iris/clusterku.php?cluster={clusterSize}
+```
